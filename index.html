@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Restaurant Website</title>
+
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+<!-- header section starts-->
+
+<section class="header">
+  <a href="#" class="logo"><i class="fas fa-utensils"></i>food.</a>
+
+  <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#food">food</a>
+    <a href="#gallery">gallery</a>
+    <a href="#menu">menu</a>
+    <a href="#order">order</a>
+    <a href="#blogs">blogs</a>
+  </nav>
+
+<div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends -->
+
+<!-- Home Section starts -->
+
+<section class="home" id="home">
+
+  <div class="swiper home-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide" style="background: url(image/home-slide-1.jpg) no-repeat;">
+        <div class="content">
+          <span>Amazing food</span>
+          <h3>Morning breakfast</h3>
+          <a href="#" class="btn">get started</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide slide" style="background: url(image/CEA7RII-00932.jpg) no-repeat;">
+        <div class="content">
+          <span>Amazing food</span>
+          <h3>Luscious cooking</h3>
+          <a href="#" class="btn">get started</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide slide" style="background: url(image/CEA7RII-.jpg) no-repeat;">
+        <div class="content">
+          <span>Amazing food</span>
+          <h3>Organic kitchen</h3>
+          <a href="#" class="btn">get started</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </div>
+
+</section>
+
+<!-- Home Section Ends -->
+
+<!-- About section starts -->
+
+<section class="about" id="about">
+
+  <div class="image">
+    <img src="image/pancake.jpg" alt="pancake">
+  </div>
+
+<div class="content">
+  <h3 class="title">welcome to our Restaurant</h3>
+  <p>We welcome you to a delicious feast of exquisite dishes in Christian jr line. With a wide range of world cushines to choose from, we guarantee you a magnificent feast experience.</p>
+  <a href="#" class="btn">read more</a>
+  <div class="icons-container">
+  <div class="icons">
+  <img src="image/about-icon-1.png" alt="">
+  <h3>supreme food</h3>
+</div>
+<div class="icons">
+<img src="image/about-icon-2.png" alt="">
+<h3>food & drinks</h3>
+</div>
+<div class="icons">
+<img src="image/about-icon-3.png" alt="">
+<h3>master chef</h3>
+</div>
+  </div>
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+ <!-- Food section starts -->
+
+<section class="food" id="food">
+
+<div class="heading">
+  <span>desired dishes</span>
+  <h3>our tasty food</h3>
+</div>
+
+<div class="swiper food-slider">
+
+<div class="swiper-wrapper">
+
+  <div class="swiper-slide slide" data-name="food-1">
+    <img src="image/curry.jpg" alt="food">
+    <h3>delicious </h3>
+    <div class="price">$20.99</div>
+  </div>
+
+  <div class="swiper-slide slide" data-name="food-2">
+    <img src="image/CEA7RII-00915.jpg" alt="food">
+    <h3>delicious </h3>
+    <div class="price">$22.99</div>
+  </div>
+
+  <div class="swiper-slide slide" data-name="food-3">
+    <img src="image/art.jpg" alt="food">
+    <h3>delicious </h3>
+    <div class="price">$18.99</div>
+  </div>
+
+  <div class="swiper-slide slide" data-name="food-4">
+    <img class="protein" src="image/protein.jpg" alt="food">
+    <h3>delicious </h3>
+    <div class="price">$18.99</div>
+  </div>
+
+  <div class="swiper-slide slide" data-name="food-5">
+    <img src="image/burger.jpg" alt="food">
+    <h3>delicious </h3>
+    <div class="price">$20.99</div>
+  </div>
+
+</div>
+
+  <div class="swiper-pagination"></div>
+
+</div>
+
+</section>
+
+<!-- Food sections ends -->
+
+<!-- Food preview section starts -->
+
+<section class="food-preview-container">
+
+  <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="image/CEA7RII-01033.jpg" alt="food" width="250">
+      <h3>appetizing food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Paella Valenciana with charred mushroom madness</p>
+      <div class="price">$30.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="image/eggrice.jpg" alt="food">
+      <h3>appetizing food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Super Kale salad with toasted and finely chopped walnuts pecans and pine nuts </p>
+      <div class="price">$17.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="image/avacado.jpg" alt="food">
+      <h3>appetizing food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Ackee on Sourdough Avacado spread with plantains</p>
+      <div class="price">$25.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="image/food-galler-img-1.jpg" alt="food">
+      <h3>appetizing food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Honey Garlic Chicken skewers</p>
+      <div class="price">$25.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="image/food-galler-img-2.jpg" alt="food">
+      <h3>appetizing food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Shrimp and Broccoli</p>
+      <div class="price">$28.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+
+</section>
+
+<!-- Food preview section ends -->
+
+<!-- Gallery section starts -->
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>our gallery</span>
+      <h3>our untold stories</h3>
+   </div>
+
+   <div class="gallery-container">
+
+     <a href="image/food-galler-img-2.jpg" class="box">
+        <img src="image/food-galler-img-2.jpg" alt="food">
+        <div class="icon"> <i class="fas fa-plus"></i> </div>
+     </a>
+
+      <a href="image/prep.jpg" class="box">
+         <img src="image/prep.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/food-img-1.jpg" class="box">
+         <img src="image/food-img-1.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/food-galler-img-1.jpg" class="box">
+         <img src="image/food-galler-img-1.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/salmon.jpg" class="box">
+         <img src="image/salmon.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/taco.jpg" class="box">
+         <img src="image/taco.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/tofu.jpg" class="box">
+         <img src="image/tofu.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/pineapple.jpg" class="box">
+         <img src="image/pineapple.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/cinanamon.jpg" class="box">
+         <img src="image/cinanamon.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/cake1.jpg" class="box">
+         <img src="image/cake1.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/cake.jpg" class="box">
+         <img src="image/cake.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="image/pie.jpg" class="box">
+         <img src="image/pie.jpg" alt="food">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+   </div>
+
+</section>
+<!-- Gallery section ends -->
+
+<!-- Menu section starts -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <span>our menu</span>
+      <h3>our popular dishes</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <h3 class="title">breakfast</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>french twist</h3>
+                     <p>french twist with roasted turkey, red onions and tomato on a croissant.</p>
+                  </div>
+                  <div class="price">$10.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>biscuits and gravy</h3>
+                     <p>choice of country sausage gravy or country veggie gravy with 2 eggs.</p>
+                  </div>
+                  <div class="price">$14.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>The junior</h3>
+                     <p>2 eggs, bacon and home made fried potatoes and your choice of toast.</p>
+                  </div>
+                  <div class="price">$10.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>the scrambler</h3>
+                     <p>3 eggs scrambled with onions, green peppers, mushrooms, and chicken sausage.</p>
+                  </div>
+                  <div class="price">$13.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>tofu scramble</h3>
+                     <p>with spinanch, mushrooms, green peppers and cheddar cheese.</p>
+                  </div>
+                  <div class="price">$13.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Mediterranean omelet</h3>
+                     <p>with roasted red peppers, tomatoes, onions and home fried potatoes.</p>
+                  </div>
+                  <div class="price">$13.99</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">lunch</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Basil-vegetable egg</h3>
+                     <p>Served with fried rice, cabbage, brccoli stems.</p>
+                  </div>
+                  <div class="price">$24.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>The special</h3>
+                     <p>Spiced and roasted radish, oven baked lemon peppered sockeye salmon, sauteed cabbage and kale.</p>
+                  </div>
+                  <div class="price">$24.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>paella Valenciana</h3>
+                     <p>Served with charred mushroom madness.</p>
+                  </div>
+                  <div class="price">$34.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>cauliflower roast in spicy jerk mango sauce</h3>
+                     <p>Ripened and peeled mangos cherry tomatoes.</p>
+                  </div>
+                  <div class="price">$24.99</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">dinner</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Epic lentil mushroom black bean oat burger</h3>
+                     <p>Topped off with salted plantains, picked onions and mayo sauce.</p>
+                  </div>
+                  <div class="price">$19.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Salmon fillet</h3>
+                     <p>Served with oil infused brown rice & quinoa blend.</p>
+                  </div>
+                  <div class="price">$20.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>frijoles negros</h3>
+                     <p>Sweet plantains cooked in coconut oil, jerked seasoned mixed veggies and cardmom rice.</p>
+                  </div>
+                  <div class="price">$17.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Szechuanese</h3>
+                     <p>Stir fry with grass fed meatballs.</p>
+                  </div>
+                  <div class="price">$19.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>the deal</h3>
+                     <p>Ground feremented soy beans. Topped off with nutritional yeast and ground pepper.</p>
+                  </div>
+                  <div class="price">$18.99</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">drinks</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Dirty Martini</h3>
+                     <p>2 oz gin or vodka.</p>
+                  </div>
+                  <div class="price">$19.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Manhattan</h3>
+                     <p>2 oz bourbon.</p>
+                  </div>
+                  <div class="price">$19.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Greyhound</h3>
+                     <p>10z vodka, 4 oz white grapefruit juice.</p>
+                  </div>
+                  <div class="price">$19.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Palm wine</h3>
+                     <p>natural feremented palms.</p>
+                  </div>
+                  <div class="price">$19.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Pina colada</h3>
+                     <p>1 oz light rum, 2 oz pineapple juice, 1 oz half & half cream.</p>
+                  </div>
+                  <div class="price">$19.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Strawberry margarita</h3>
+                     <p>4 strawberries, superfine sugar, 1 oz tequila, 1 lime wedge for garnish.</p>
+                  </div>
+                  <div class="price">$19.99</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">dessert</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>spiced banana-chocolate Bundt cake</h3>
+                     <p>Gluten, refined sugar.</p>
+                  </div>
+                  <div class="price">$14.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Cookie chip cake</h3>
+                     <p>With choice off ice cream.</p>
+                  </div>
+                  <div class="price">$14.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>creamy Lemon Tarts</h3>
+                     <p>Wit lemons and berries.</p>
+                  </div>
+                  <div class="price">$14.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Blueberry Muffins</h3>
+                     <p>Served with a chilled glass of oat milk.</p>
+                  </div>
+                  <div class="price">$14.99</div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- Menu section ends -->
+
+<!-- Order section starts -->
+<section class="order" id="order">
+
+   <div class="heading">
+      <span>order now</span>
+      <h3>fast home delivery</h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>full name</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+            <div class="inputBox">
+               <span>food name</span>
+               <input type="text" placeholder="food you want">
+            </div>
+            <div class="inputBox">
+               <span>order details</span>
+               <input type="text" placeholder="specifics with food">
+            </div>
+            <div class="inputBox">
+               <span>your address</span>
+               <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>number</span>
+               <input type="number" placeholder="enter your number">
+            </div>
+            <div class="inputBox">
+               <span>how much</span>
+               <input type="number" placeholder="how many you want">
+            </div>
+            <div class="inputBox">
+               <span>when you want</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>our address</span>
+               <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60307.59083109428!2d72.840725!3d19.141651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1642222128240!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+      </div>
+      <input type="submit" value="order now" class="btn">
+   </form>
+
+</section>
+<!-- Order section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>our blogs</span>
+      <h3>our latest posts</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="image/CEA7II-3.jpg" alt="food">
+               <span>pizza</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st march, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">blog title goes here</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="image/CEA7RII-00841.jpg" alt="food">
+               <span>caramel tarts</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st march, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">blog title goes here</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="image/CEA7RII-00591.jpg" alt="">
+               <span>shortbread-pistachio bars</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st march, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">blog title goes here</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="image/pancake.jpg" alt="">
+               <span>french-pancake</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st march, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">blog title goes here</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="image/patties.jpg" alt="">
+               <span>patties</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st march, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">blog title goes here</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="image/plaintain.jpg" alt="">
+               <span>full-meal</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st march, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">blog title goes here</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>opening hours</h3>
+         <p>10:00am to 9:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>phone</h3>
+         <p>+862-215-3500</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>juniorenemuo@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>address</h3>
+         <p>georgia, USA</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+     <a href="#" class="fab fa-facebook-f"></a>
+     <a href="#" class="fab fa-instagram"></a>
+     <a href="#" class="fab fa-linkedin"></a>
+
+      <!-- <a href="https://www.facebook.com/junior.enemuo" class="fab fa-facebook-f"></a>
+      <a href="https://instagram.com/onionguycooks/" class="fab fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/christianenemuo/" class="fab fa-linkedin"></a> -->
+   </div>
+
+   <div class="credit"> created by <span>Stanley Enemuo</span></span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends  -->
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- custom js file link -->
+    <script type="text/javascript" src="js/index.js" charset="utf-8"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+  </body>
+</html>
